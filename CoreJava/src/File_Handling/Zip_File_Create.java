@@ -1,6 +1,7 @@
 package File_Handling;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.OutputStream;
 import java.io.FileInputStream;
 import java.util.zip.ZipOutputStream;
 import java.util.zip.ZipEntry;
@@ -27,7 +28,7 @@ public class Zip_File_Create {
 		    
 		    byte[] bytes = new byte[1024];
 		    int length;
-		    while((length = fos.read())>=0);
+		    while((length = fis.read())>=0);
 		    {
 		    	  zos.write(bytes,0,length);
 		    	  
@@ -37,7 +38,8 @@ public class Zip_File_Create {
 		    fis.close();
 		    System.out.println("file is created");
 		    
-		}catch(Exception e) 
+		}
+		catch(Exception e) 
 		{
 			System.out.println(e);
 		}

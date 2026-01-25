@@ -16,8 +16,11 @@ class Employee implements Cloneable
 	{
 	return super.clone();
 	}
+
 	
-}
+	
+	
+
 
 public class Clone_Methods {
 

@@ -13,6 +13,7 @@ public class Anonymous_In_Method {
 	  public void show()
 	  {        
 		  test t=new test() 
+		  
 		                            
 		  {             // anonymous class end with  ; 
 			  public void Hello() 
