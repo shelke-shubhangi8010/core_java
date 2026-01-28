@@ -33,6 +33,18 @@ public class ArrayList_Demo {
 		Collections.sort(a4,Collections.reverseOrder());
 		System.out.println("desending sorted Array list :"+a4);
 		
+		a4.remove(2);
+		System.out.println("remove element Array list :"+a4);
+		
+		a4.remove("Neha");
+		System.out.println("remove element Array list :"+a4);
+		
+		a4.addAll(a3);      // copy list
+		System.out.println("Add all Array list"+a4);
+		
+		a4.removeAll(a3);     // delete list
+		System.out.println(" after remove all : "+a4);
+		
 		
 	}
 
@@ -53,6 +65,12 @@ public class ArrayList_Demo {
     set()-->  it will allow replace the element of specific condition
     
     get() -->   retrive element from list
-          -->     fetch the data from particular indexing value 
-     
+          -->     fetch the data from particular indexing value
+           
+  collection.sort()--> // asending order
+  collection.sort(a4.reverseorder())--> // desending order list
+  
+     remove()--->  it will allow remove element the arraylist
+     removeAll()--->   it will remove all new element for collection
+     index of()---> it will return integer index of that element from list
    */
