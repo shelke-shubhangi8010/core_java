@@ -36,6 +36,7 @@ public class ArrayList_Method {
   it is support multiple methods
   iterator class -->  will help access data from any collection, hasNext(),next()
   
+  add() --->
   addAll();  -->  existing Array list data want to copy the another ArrayList
             --> Add multiple element at a time
           
